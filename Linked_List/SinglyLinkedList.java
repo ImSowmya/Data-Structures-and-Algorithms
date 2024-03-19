@@ -1,12 +1,11 @@
-package LinkedList;
-public class LinkedList
+public class SinglyLinkedList
 {
 
     private Node head;
     private Node tail;
     private int size;
 
-    public LinkedList()
+    public SinglyLinkedList()
     {
         this.size = 0;
     }
@@ -148,7 +147,6 @@ public class LinkedList
         }
         return temp;
     }
-
     // DISPLAY THE LINKED LIST
 
     public void display()
@@ -164,7 +162,7 @@ public class LinkedList
 
     public static void main(String[] args) 
     {
-        LinkedList l = new LinkedList();
+        SinglyLinkedList l = new SinglyLinkedList();
 
         l.insertFirst(1);
         l.insertFirst(2);
