@@ -1,6 +1,6 @@
 public class CustomStack 
 {
-    private int [] data;
+    protected int [] data;
     private static final int DEFAULT_SIZE = 10;
 
     int ptr = -1;
@@ -46,11 +46,11 @@ public class CustomStack
         return data[ptr];
     }
 
-    private boolean isFull()
+    public boolean isFull()
     {
         return ptr == data.length -1;
     }
-    private boolean isEmpty()
+    public boolean isEmpty()
     {
         return ptr == -1;
     }
