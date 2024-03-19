@@ -17,11 +17,11 @@ public class CircularLinkedList
         {
             this.value = value;
         }
-        public Node (int value, Node next)
-        {
-            this.value = value;
-            this.next = next;
-        }
+        // public Node (int value, Node next)
+        // {
+        //     this.value = value;
+        //     this.next = next;
+        // }
     }    
 
     public void insertLast(int value)
