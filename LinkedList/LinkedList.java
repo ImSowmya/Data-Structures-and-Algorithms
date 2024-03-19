@@ -40,7 +40,6 @@ public class LinkedList
         {
             tail = head;
         }
-
         size += 1;
     }
 
