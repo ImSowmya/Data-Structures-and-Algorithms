@@ -80,7 +80,6 @@ public class BinarySearchTree
     {
         return balanced(root);
     }
-
     private boolean balanced(Node node)
     {
         if (node == null)
