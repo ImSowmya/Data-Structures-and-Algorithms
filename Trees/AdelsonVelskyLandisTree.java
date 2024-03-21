@@ -177,6 +177,4 @@ class AdelsonVelskyLandisTree
         }
         System.out.println(avl.height());
     }
-
-    
 }
